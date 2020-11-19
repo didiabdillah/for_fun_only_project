@@ -212,32 +212,6 @@
                 <div class="col-lg">
                     <div class="login-reg-bg">
                         <div class="log-reg-area sign">
-                            <h2 class="log-title">Login</h2>
-                            <p>
-                                Don’t use Winku Yet? <a href="#" title="">Take the tour</a> or <a href="#" title="">Join now</a>
-                            </p>
-                            <form method="post">
-                                <div class="form-group">
-                                    <input type="text" id="input" required="required" />
-                                    <label class="control-label" for="input">Username</label><i class="mtrl-select"></i>
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" required="required" />
-                                    <label class="control-label" for="input">Password</label><i class="mtrl-select"></i>
-                                </div>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" checked="checked" /><i class="check-box"></i>Always Remember Me.
-                                    </label>
-                                </div>
-                                <a href="#" title="" class="forgot-pwd">Forgot Password?</a>
-                                <div class="submit-btns">
-                                    <button class="mtr-btn signin" type="button"><span>Login</span></button>
-                                    <button class="mtr-btn signup" type="button"><span>Register</span></button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="log-reg-area reg">
                             <h2 class="log-title">Register</h2>
                             <p>
                                 Don’t use Winku Yet? <a href="#" title="">Take the tour</a> or <a href="#" title="">Join now</a>
@@ -276,7 +250,7 @@
                                         <input type="checkbox" checked="checked" /><i class="check-box"></i>Accept Terms & Conditions ?
                                     </label>
                                 </div>
-                                <a href="#" title="" class="already-have">Already have an account</a>
+                                <a href="{{url('/login')}}" title="" class="already-have">Already have an account</a>
                                 <div class="submit-btns">
                                     <button class="mtr-btn signup" type="button"><span>Register</span></button>
                                 </div>
