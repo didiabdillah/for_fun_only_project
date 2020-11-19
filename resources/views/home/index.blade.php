@@ -830,13 +830,12 @@
                                             </figure>
                                             <div class="page-meta">
                                                 <a href="#" title="" class="underline">My page</a>
-                                                <span><i class="ti-comment"></i><a href="insight.html" title="">Messages <em>9</em></a></span>
                                                 <span><i class="ti-bell"></i><a href="insight.html" title="">Notifications <em>2</em></a></span>
                                             </div>
                                             <div class="page-likes">
                                                 <ul class="nav nav-tabs likes-btn">
-                                                    <li class="nav-item"><a class="active" href="#link1" data-toggle="tab">likes</a></li>
-                                                    <li class="nav-item"><a class="" href="#link2" data-toggle="tab">views</a></li>
+                                                    <li class="nav-item"><a class="active" href="#link1" data-toggle="tab">fun</a></li>
+                                                    <li class="nav-item"><a class="" href="#link2" data-toggle="tab">followers</a></li>
                                                 </ul>
                                                 <!-- Tab panes -->
                                                 <div class="tab-content">
@@ -898,8 +897,19 @@
                                             </div>
                                         </div>
                                     </div><!-- page like widget -->
+                                    <div class="widget">
+                                        <h4 class="widget-title">Share</h4>
+                                        <ul class="socials">
+                                            <li class="facebook">
+                                                <a href="#" title=""><i class="fa fa-facebook"></i> <span>facebook</span> <ins>45 likes</ins></a>
+                                            </li>
+                                            <li class="twitter">
+                                                <a href="#" title=""><i class="fa fa-twitter"></i> <span>twitter</span><ins>25 likes</ins></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                     <div class="widget friend-list stick-widget">
-                                        <h4 class="widget-title">Friends</h4>
+                                        <h4 class="widget-title">Top Weekly Users</h4>
                                         <div id="searchDir"></div>
                                         <ul id="people-list" class="friendz-list">
                                             <li>
@@ -998,68 +1008,6 @@
                                                 </div>
                                             </li>
                                         </ul>
-                                        <div class="chat-box">
-                                            <div class="chat-head">
-                                                <span class="status f-online"></span>
-                                                <h6>Bucky Barnes</h6>
-                                                <div class="more">
-                                                    <span><i class="ti-more-alt"></i></span>
-                                                    <span class="close-mesage"><i class="ti-close"></i></span>
-                                                </div>
-                                            </div>
-                                            <div class="chat-list">
-                                                <ul>
-                                                    <li class="me">
-                                                        <div class="chat-thumb"><img src="{{URL::asset('assets/images/resources/chatlist1.jpg')}}" alt=""></div>
-                                                        <div class="notification-event">
-                                                            <span class="chat-message-item">
-                                                                Hi James! Please remember to buy the food for tomorrow! I’m gonna be handling the gifts and Jake’s gonna get the drinks
-                                                            </span>
-                                                            <span class="notification-date"><time datetime="2004-07-24T18:18" class="entry-date updated">Yesterday at 8:10pm</time></span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="you">
-                                                        <div class="chat-thumb"><img src="{{URL::asset('assets/images/resources/chatlist2.jpg')}}" alt=""></div>
-                                                        <div class="notification-event">
-                                                            <span class="chat-message-item">
-                                                                Hi James! Please remember to buy the food for tomorrow! I’m gonna be handling the gifts and Jake’s gonna get the drinks
-                                                            </span>
-                                                            <span class="notification-date"><time datetime="2004-07-24T18:18" class="entry-date updated">Yesterday at 8:10pm</time></span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="me">
-                                                        <div class="chat-thumb"><img src="{{URL::asset('assets/images/resources/chatlist1.jpg')}}" alt=""></div>
-                                                        <div class="notification-event">
-                                                            <span class="chat-message-item">
-                                                                Hi James! Please remember to buy the food for tomorrow! I’m gonna be handling the gifts and Jake’s gonna get the drinks
-                                                            </span>
-                                                            <span class="notification-date"><time datetime="2004-07-24T18:18" class="entry-date updated">Yesterday at 8:10pm</time></span>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                                <form class="text-box">
-                                                    <textarea placeholder="Post enter to post..."></textarea>
-                                                    <div class="add-smiles">
-                                                        <span title="add icon" class="em em-expressionless"></span>
-                                                    </div>
-                                                    <div class="smiles-bunch">
-                                                        <i class="em em---1"></i>
-                                                        <i class="em em-smiley"></i>
-                                                        <i class="em em-anguished"></i>
-                                                        <i class="em em-laughing"></i>
-                                                        <i class="em em-angry"></i>
-                                                        <i class="em em-astonished"></i>
-                                                        <i class="em em-blush"></i>
-                                                        <i class="em em-disappointed"></i>
-                                                        <i class="em em-worried"></i>
-                                                        <i class="em em-kissing_heart"></i>
-                                                        <i class="em em-rage"></i>
-                                                        <i class="em em-stuck_out_tongue"></i>
-                                                    </div>
-                                                    <button type="submit"></button>
-                                                </form>
-                                            </div>
-                                        </div>
                                     </div><!-- friends list sidebar -->
                                 </aside>
                             </div><!-- sidebar -->
@@ -1164,21 +1112,6 @@
             <input type="checkbox" id="switch22" />
             <label for="switch22" data-on-label="ON" data-off-label="OFF"></label>
         </div>
-        <div class="setting-row">
-            <span>Notification sound</span>
-            <input type="checkbox" id="switch33" />
-            <label for="switch33" data-on-label="ON" data-off-label="OFF"></label>
-        </div>
-        <div class="setting-row">
-            <span>My profile</span>
-            <input type="checkbox" id="switch44" />
-            <label for="switch44" data-on-label="ON" data-off-label="OFF"></label>
-        </div>
-        <div class="setting-row">
-            <span>Show profile</span>
-            <input type="checkbox" id="switch55" />
-            <label for="switch55" data-on-label="ON" data-off-label="OFF"></label>
-        </div>
     </form>
     <h4 class="panel-title">Account Setting</h4>
     <form method="post">
@@ -1191,26 +1124,6 @@
             <span>personal account</span>
             <input type="checkbox" id="switch77" />
             <label for="switch77" data-on-label="ON" data-off-label="OFF"></label>
-        </div>
-        <div class="setting-row">
-            <span>Business account</span>
-            <input type="checkbox" id="switch88" />
-            <label for="switch88" data-on-label="ON" data-off-label="OFF"></label>
-        </div>
-        <div class="setting-row">
-            <span>Show me online</span>
-            <input type="checkbox" id="switch99" />
-            <label for="switch99" data-on-label="ON" data-off-label="OFF"></label>
-        </div>
-        <div class="setting-row">
-            <span>Delete history</span>
-            <input type="checkbox" id="switch101" />
-            <label for="switch101" data-on-label="ON" data-off-label="OFF"></label>
-        </div>
-        <div class="setting-row">
-            <span>Expose author name</span>
-            <input type="checkbox" id="switch111" />
-            <label for="switch111" data-on-label="ON" data-off-label="OFF"></label>
         </div>
     </form>
 </div><!-- side panel -->
