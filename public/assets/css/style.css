@@ -668,10 +668,17 @@ header.sticky {
 .logo {
     display: inline-block;
     vertical-align: inherit;
-    width: 15%;
+    width: 10%;
     position: relative;
     z-index: 10;
 }
+
+
+
+/*.logo img {
+    position: absolute;
+    top: -22px;
+}*/
 
 .topbar > form {
     display: inline-block;
@@ -682,9 +689,9 @@ header.sticky {
 
 .top-area {
     display: inline-block;
-    text-align: right;
+    text-align: left;
     vertical-align: middle;
-    width: 84%;
+    width: 88%;
 }
 
 .top-area > ul {
@@ -692,8 +699,8 @@ header.sticky {
     line-height: 56px;
     list-style: outside none none;
     margin-bottom: 0;
-    margin-right: 35px;
-    padding-left: 0;
+    margin-right: 15px;
+    padding-left: 20px;
     vertical-align: middle;
 }
 
@@ -708,7 +715,7 @@ header.sticky {
     color: #999;
     display: inline-block;
     font-size: 18px;
-    padding: 0 15px;
+    padding: 0 20px;
     vertical-align: middle;
 }
 
@@ -987,7 +994,7 @@ header.sticky {
     background: #fff none repeat scroll 0 0;
     border: 1px solid #e1e8ed;
     list-style: outside none none;
-    max-height: 355px;
+    max-height: 294px;
     overflow: auto;
     padding-left: 0;
     position: absolute;
@@ -1933,7 +1940,7 @@ li.post-comment .comet-avatar {
 }
 
 .post-comt-box form textarea {
-    background: #ecebeb none repeat scroll 0 0;
+    background: #f3f3f3 none repeat scroll 0 0;
     border-color: transparent;
     border-radius: 3px;
     color: #696969;
@@ -1942,9 +1949,7 @@ li.post-comment .comet-avatar {
     height: 40px;
     line-height: 16px;
 }
-.post-comt-box form textarea:focus{
-    border: 1px solid #088dcd;
-}
+
 .add-smiles {
     position: absolute;
     right: 10px;
@@ -4766,13 +4771,19 @@ canvas {
     line-height: 60px;
 }
 
-.top-area > ul.main-menu > li {
+/*.top-area > ul.main-menu > li {
     line-height: 59px;
     margin-right: 10px;
     padding-right: 10px;
     position: relative;
-}
+}*/
 
+.top-area > ul.main-menu > li {
+    line-height: 59px;
+    /* margin-right: 10px; */
+    /* padding-right: 10px; */
+    position: relative;
+}
 .top-area > ul.main-menu > li a {
     color: #575b5f;
     font-size: 14px;
@@ -4781,14 +4792,16 @@ canvas {
     letter-spacing: 0.3px;
 }
 
-.top-area > ul.main-menu > li::after {
+
+
+/*.top-area > ul.main-menu > li::after {
     content: "";
     font-family: fontawesome;
     font-size: 13px;
     position: absolute;
     right: 10px;
     top: 0;
-}
+}*/
 
 .top-area > ul.main-menu > li > ul li {
     line-height: initial;
@@ -5364,7 +5377,7 @@ canvas {
     float: left;
     margin-top: 7px;
     text-align: left;
-    width: 32%;
+    width: 25%;
 }
 
 .top-search form {
@@ -5511,7 +5524,7 @@ canvas {
 }
 
 .left-menu > li a {
-    color: #535165;
+    color: #9196b1;
     display: inline-block;
     font-size: 20px;
 }
@@ -8111,11 +8124,7 @@ a.main-btn {
     width: 100%;
     position: relative;
 }
-.help-topic-result:last-child{
-	border-bottom: 0 none;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
+
 .help-topic-result .checkd {
     color: green;
     font-size: 30px;
@@ -10150,4 +10159,67 @@ aside.sidebar.full-style {
     text-transform: uppercase;
 }
 
+@media (min-width: 1200px){
+[data-ripple] {
+    padding-left: 15px;
+}
+
+}
+
+@media (max-width: 991px) and (min-width: 981px){
+.logo img {
+    margin-top: -5px;
+    width: 75%;
+}
+.top-search {
+    width: 23%;
+}
+.top-area > ul {
+    margin-right: 15px;
+    padding-left: 0px;
+}
+.top-area > ul > li {
+    margin-left: -5px;
+}
+.top-area > ul.main-menu {
+    margin-left: -15px;
+}
+.top-area > ul.main-menu > li {
+    margin-right: -20px;
+    margin-left: 0px;
+    padding-right: 0px;
+}
+.top-area .user-img {
+    margin: -1px;
+}
+
+}
+
+
+@media (max-width: 1024px) and (min-width: 992px) {
+.logo img {
+    margin-top: -5px;
+}
+.top-area > ul {
+    padding-left: 5px;
+}
+}
+
+@media (max-width: 1199px) and (min-width: 1025px){
+.logo img {
+    margin-top: -5px;
+}
+.top-area > ul {
+    margin-right: 15px;
+    padding-left: 5px;
+}
+.top-area > ul.main-menu {
+    margin-left: -15px;
+}
+.top-area > ul.main-menu > li {
+    margin-right: -10px;
+    padding-right: 0px;
+}
+
+}
 

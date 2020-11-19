@@ -25,7 +25,7 @@
         width: 73.5%;
     }
     .peoples {
-        width: 215px;
+        width: 230px;
     }
     .peoples-mesg-box {
         width: 72%;
@@ -106,14 +106,6 @@
     .row.widget-page {
         padding: 0;
     }
-    .top-area > ul{margin-right: 0;}
-    .top-area > ul.main-menu > li {
-        margin-right: 10px;
-        padding-right: 10px;
-    }
-    .top-area > ul.main-menu > li a {
-        font-size: 13px;
-    }
 }
 
 
@@ -124,8 +116,8 @@
         padding: 0 18px;
     }
     .top-area > ul.main-menu > li {
-        margin-right: 20px;
-        padding-right: 20px;
+        /*margin-right: 20px;*/
+        padding-right: 15px;
     }
     .top-area > ul.main-menu > li::after {
         right: 5px;
@@ -318,18 +310,6 @@
 
 
 /*--- tablet view ---*/
-
-@media screen and (max-width: 1020px) and (min-width: 981px) {
-
-    .top-area > ul.main-menu > li {
-        margin-right: 10px;
-        padding-right: 10px;
-    }
-    .top-area > ul.main-menu > li a {
-        font-size: 12px;
-    }
-
-}
 
 @media screen and (max-width: 980px) {
     .gap {
@@ -627,14 +607,6 @@
         font-size: 12px;
         margin-right: 11px;
     }
-}
-@media screen and (max-width: 767px) and (min-width: 641px) {
-
-    .sidebar .widget {
-        margin: 10px;
-        width: 46.1%;
-    }
-
 }
 
 @media screen and (max-width: 640px) {
@@ -1088,11 +1060,6 @@
         font-size: 15px;
     }
     .job-detail > ul li span{width: 94%;}
-    .sidebar .widget {
-        margin: 0;
-        width: 100%;
-        margin-bottom: 15px;
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -1212,7 +1179,6 @@
         margin-left: 0;
         margin-right: 0;
         margin-top: 0;
-        margin-bottom: 15px;
         width: 100%;
     }
     footer .row > div:last-child .widget {
