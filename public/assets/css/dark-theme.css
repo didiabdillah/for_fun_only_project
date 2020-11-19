@@ -322,9 +322,13 @@ footer:before{
     color: #ececec;
 }
 
+.we-video-info > ul li span.like {
+    color: white;
+}
 
-
-
+.we-video-info > ul li span.dislike {
+    color: white;
+}
 
 
 

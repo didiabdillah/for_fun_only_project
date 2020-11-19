@@ -591,7 +591,7 @@
                                                     <span>published: january,5 2018 19:PM</span>
                                                 </div>
                                                 <div class="post-meta">
-                                                    <img src="{{URL::asset('assets/images/resources/user-post.jpg')}}" alt="">
+                                                    <img src="{{URL::asset('assets/images/resources/wide-post.png')}}" alt="">
                                                     <div class="we-video-info">
                                                         <ul>
                                                             <li>

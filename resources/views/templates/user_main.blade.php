@@ -32,7 +32,7 @@
             if ($.cookie('tema')) {
 
                 $("#darkmode").attr('href', url + $.cookie('tema'));
-                $("#nightmode1").prop('checked', true);
+                $("#nightmode, #nightmode1").prop('checked', true);
             }
             $("#nightmode, #nightmode1").change(function() {
 
