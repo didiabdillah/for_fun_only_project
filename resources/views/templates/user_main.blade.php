@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{URL::asset('assets/css/style.css')}}">
     <link rel="stylesheet" href="{{URL::asset('assets/css/color.css')}}">
     <link rel="stylesheet" href="{{URL::asset('assets/css/responsive.css')}}">
-
+    <link id="darkmode" rel="stylesheet" href="">
 </head>
 
 <body>
@@ -24,23 +24,28 @@
     <script src="{{URL::asset('assets/js/main.min.js')}}"></script>
     <script src="{{URL::asset('assets/js/script.js')}}"></script>
     <script src="{{URL::asset('assets/js/map-init.js')}}"></script>
+    <script src="{{URL::asset('assets/js/jquery.cookie.js')}}"></script>
 
     <script>
-        $("#nightmode").change(function() {
-            if (this.checked) {
-                //Do stuff
-                $("head").append('<link id="darkmode" rel="stylesheet" href="{{URL::asset("assets/css/dark-theme.css")}}">');
-            } else {
-                $("#darkmode").remove();
+        $(document).ready(function() {
+            var url = '{{URL::asset("assets/css")}}/';
+            if ($.cookie('tema')) {
+
+                $("#darkmode").attr('href', url + $.cookie('tema'));
+                $("#nightmode1").prop('checked', true);
             }
-        });
-        $("#nightmode1").change(function() {
-            if (this.checked) {
-                //Do stuff
-                $("head").append('<link id="darkmode" rel="stylesheet" href="{{URL::asset("assets/css/dark-theme.css")}}">');
-            } else {
-                $("#darkmode").remove();
-            }
+            $("#nightmode, #nightmode1").change(function() {
+
+                if ($(this).is(':checked')) {
+                    $("#darkmode").attr('href', url + 'dark-theme.css');
+                    $.cookie('tema', 'dark-theme.css');
+                } else {
+                    $("#darkmode").removeAttr('href');
+                    $.removeCookie('tema');
+                }
+
+
+            });
         });
     </script>
 </body>
