@@ -191,7 +191,6 @@
 
                     <div class="user-img">
                         <img src="{{URL::asset('assets/images/resources/admin.jpg')}}" alt="">
-                        <span class="status f-online"></span>
                         <div class="user-setting">
                             <a href="#" title=""><span class="status f-online"></span>online</a>
                             <a href="#" title=""><span class="status f-away"></span>away</a>
