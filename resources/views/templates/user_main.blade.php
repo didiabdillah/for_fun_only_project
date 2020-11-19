@@ -25,6 +25,24 @@
     <script src="{{URL::asset('assets/js/script.js')}}"></script>
     <script src="{{URL::asset('assets/js/map-init.js')}}"></script>
 
+    <script>
+        $("#nightmode").change(function() {
+            if (this.checked) {
+                //Do stuff
+                $("head").append('<link id="darkmode" rel="stylesheet" href="{{URL::asset("assets/css/dark-theme.css")}}">');
+            } else {
+                $("#darkmode").remove();
+            }
+        });
+        $("#nightmode1").change(function() {
+            if (this.checked) {
+                //Do stuff
+                $("head").append('<link id="darkmode" rel="stylesheet" href="{{URL::asset("assets/css/dark-theme.css")}}">');
+            } else {
+                $("#darkmode").remove();
+            }
+        });
+    </script>
 </body>
 
 </html>

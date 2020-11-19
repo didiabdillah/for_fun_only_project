@@ -89,7 +89,7 @@
     <div class="topbar stick">
         <div class="container">
             <div class="logo">
-                <a title="" href="newsfeed.html"><img src="{{URL::asset('assets/images/logo.png')}}" alt=""></a>
+                <a title="" href="newsfeed.html"><img src="{{URL::asset('assets/images/logo-border.png')}}" alt=""></a>
             </div>
 
             <div class="top-area">

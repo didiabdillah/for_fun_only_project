@@ -4,8 +4,8 @@ jQuery(document).ready(function ($) {
 
 	//------- Notifications Dropdowns
 	$('.top-area > .setting-area > li > a').on("click", function () {
-		var $parent = $(this).parent('li');
-		$parent.siblings().children('div').removeClass('active');
+		// var $parent = $(this).parent('li');
+		// $parent.siblings().children('div').removeClass('active');
 		$(this).siblings('div').toggleClass('active');
 		return false;
 	});
@@ -17,10 +17,10 @@ jQuery(document).ready(function ($) {
 
 	});
 
-
 	//--- user setting dropdown on topbar	
 	$('.user-img').on('click', function () {
-		$('.user-setting').toggleClass("active");
+		$('.user-setting').toggleClass('active');
+
 	});
 
 	//--- side message box	
