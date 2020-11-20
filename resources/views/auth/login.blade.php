@@ -216,6 +216,8 @@
                             <p>
                                 Don’t use Winku Yet? <a href="#" title="">Take the tour</a> or <a href="#" title="">Join now</a>
                             </p>
+                            <a href="#" title="" class="btn btn-primary btn-block"><i class="fa fa-facebook"></i> <span>Login with facebook</span></a>
+                            <a href="#" title="" class="btn btn-danger btn-block"><i class="fa fa-google"></i> <span>Login with google</span></a>
                             <form method="post">
                                 <div class="form-group">
                                     <input type="text" id="input" required="required" />
@@ -236,7 +238,7 @@
                                     <a class="signup" style="margin-left: 30px;" href="{{url('/register')}}"><span>Register</span></a>
                                 </div>
                                 <div class="submit-btns">
-                                    <a href="#" title="" class="btn btn-primary"><i class="fa fa-facebook"></i> <span>Login with facebook</span></a>
+
                                 </div>
                             </form>
                         </div>
