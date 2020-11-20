@@ -28,6 +28,9 @@
 
     <script>
         $(document).ready(function() {
+            var date = new Date();
+            date.setTime(date.getTime() + 1 * 1 * 60 * 1000);
+
             var url = '{{URL::asset("assets/css")}}/';
             if ($.cookie('tema')) {
 
@@ -38,7 +41,9 @@
 
                 if ($(this).is(':checked')) {
                     $("#darkmode").attr('href', url + 'dark-theme.css');
-                    $.cookie('tema', 'dark-theme.css');
+                    $.cookie('tema', 'dark-theme.css', {
+                        expires: date
+                    });
                 } else {
                     $("#darkmode").removeAttr('href');
                     $.removeCookie('tema');
