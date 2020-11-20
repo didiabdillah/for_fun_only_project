@@ -235,6 +235,9 @@
                                     <button class="mtr-btn signin" type="button"><span>Login</span></button>
                                     <a class="signup" style="margin-left: 30px;" href="{{url('/register')}}"><span>Register</span></a>
                                 </div>
+                                <div class="submit-btns">
+                                    <a href="#" title="" class="btn btn-primary"><i class="fa fa-facebook"></i> <span>Login with facebook</span></a>
+                                </div>
                             </form>
                         </div>
 
