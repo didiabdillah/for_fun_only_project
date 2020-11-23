@@ -43,9 +43,9 @@
                                     <span>Group Admin</span>
                                 </li>
                                 <li>
-                                    <a class="active" href="time-line.html" title="" data-ripple="">My Post</a>
-                                    <a class="" href="timeline-photos.html" title="" data-ripple="">Saved Post</a>
-                                    <a class="" href="timeline-videos.html" title="" data-ripple="">Liked Post</a>
+                                    <a class="active" href="time-line.html" title="" data-ripple="">Me</a>
+                                    <a class="" href="timeline-photos.html" title="" data-ripple="">Saved</a>
+                                    <a class="" href="timeline-videos.html" title="" data-ripple="">Liked</a>
                                     <a class="" href="#" title="" data-ripple="">More</a>
                                 </li>
                             </ul>
