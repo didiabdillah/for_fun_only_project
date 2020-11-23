@@ -32,3 +32,7 @@ Route::get('/u/{username}', function () {
 Route::get('/u/{username}/saved', function () {
     return view('user/saved_post');
 });
+
+Route::get('/u/{username}/liked', function () {
+    return view('user/liked_post');
+});

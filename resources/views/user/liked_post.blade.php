@@ -1,6 +1,6 @@
 @extends('templates/user_main')
 
-@section('title', 'Saved Posts')
+@section('title', 'Liked Posts')
 
 @section('page')
 <section>
@@ -43,8 +43,8 @@
                             </li>
                             <li>
                                 <a class="" href="time-line.html" title="" data-ripple="">My Post</a>
-                                <a class="active" href="timeline-photos.html" title="" data-ripple="">Saved Post</a>
-                                <a class="" href="timeline-videos.html" title="" data-ripple="">Liked Post</a>
+                                <a class="" href="timeline-photos.html" title="" data-ripple="">Saved Post</a>
+                                <a class="active" href="timeline-videos.html" title="" data-ripple="">Liked Post</a>
                                 <a class="" href="#" title="" data-ripple="">More</a>
                             </li>
                         </ul>

@@ -45,7 +45,6 @@
                                 <a class="active" href="time-line.html" title="" data-ripple="">My Post</a>
                                 <a class="" href="timeline-photos.html" title="" data-ripple="">Saved Post</a>
                                 <a class="" href="timeline-videos.html" title="" data-ripple="">Liked Post</a>
-                                <a class="" href="timeline-friends.html" title="" data-ripple="">Friends Post</a>
                                 <a class="" href="#" title="" data-ripple="">More</a>
                             </li>
                         </ul>
