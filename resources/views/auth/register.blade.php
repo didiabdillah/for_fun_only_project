@@ -216,7 +216,7 @@
                             <p>
                                 Don’t use Winku Yet? <a href="#" title="">Take the tour</a> or <a href="#" title="">Join now</a>
                             </p>
-                            <form method="post">
+                            <form method="post" action="#">
                                 <div class="form-group">
                                     <input type="text" required="required" />
                                     <label class="control-label" for="input">First & Last Name</label><i class="mtrl-select"></i>
@@ -252,7 +252,7 @@
                                 </div>
                                 <a href="{{url('/login')}}" title="" class="already-have">Already have an account</a>
                                 <div class="submit-btns">
-                                    <button class="mtr-btn signup" type="button"><span>Register</span></button>
+                                    <button class="mtr-btn signup" type="submit"><span>Register</span></button>
                                 </div>
                             </form>
                         </div>
