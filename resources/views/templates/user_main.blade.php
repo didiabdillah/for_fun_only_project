@@ -59,9 +59,6 @@
                         <a href="#" title="">Shuffle</a>
                     </li>
                     <li>
-                        <a href="#" title="">Friends</a>
-                    </li>
-                    <li>
                         <a href="#" title="">Me (Abcdefghijklmnopqrstuvwxyz)</a>
                     </li>
                     <li>
@@ -114,9 +111,6 @@
                         </li>
                         <li>
                             <a href="#" title="">Shuffle</a>
-                        </li>
-                        <li>
-                            <a href="#" title="">Friends</a>
                         </li>
                     </ul>
                     <div class="top-search">
