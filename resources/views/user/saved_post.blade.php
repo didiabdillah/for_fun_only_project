@@ -4,50 +4,52 @@
 
 @section('page')
 <section>
-    <div class="feature-photo">
-        <figure><img src="{{URL::asset('assets/images/resources/timeline-1.jpg')}}" alt=""></figure>
-        <div class="add-btn">
-            <span>1205 followers</span>
-            <span>1205 following</span>
-            <a href="#" title="" data-ripple="">Follow</a>
-        </div>
-        <form class="edit-phto">
-            <i class="fa fa-camera-retro"></i>
-            <label class="fileContainer">
-                Edit Cover Photo
-                <input type="file" />
-            </label>
-        </form>
-        <div class="container-fluid">
-            <div class="row merged">
-                <div class="col-lg-2 col-sm-3">
-                    <div class="user-avatar">
-                        <figure>
-                            <img src="{{URL::asset('assets/images/resources/user-avatar.jpg')}}" alt="">
-                            <form class="edit-phto">
-                                <i class="fa fa-camera-retro"></i>
-                                <label class="fileContainer">
-                                    Edit Display Photo
-                                    <input type="file" />
-                                </label>
-                            </form>
-                        </figure>
+    <div class="container">
+        <div class="feature-photo">
+            <figure><img src="{{URL::asset('assets/images/resources/timeline-1.jpg')}}" alt=""></figure>
+            <div class="add-btn">
+                <span>1205 followers</span>
+                <span>1205 following</span>
+                <a href="#" title="" data-ripple="">Follow</a>
+            </div>
+            <form class="edit-phto">
+                <i class="fa fa-camera-retro"></i>
+                <label class="fileContainer">
+                    Edit Cover Photo
+                    <input type="file" />
+                </label>
+            </form>
+            <div class="container-fluid">
+                <div class="row merged">
+                    <div class="col-lg-2 col-sm-3">
+                        <div class="user-avatar">
+                            <figure>
+                                <img src="{{URL::asset('assets/images/resources/user-avatar.jpg')}}" alt="">
+                                <form class="edit-phto">
+                                    <i class="fa fa-camera-retro"></i>
+                                    <label class="fileContainer">
+                                        Edit Display Photo
+                                        <input type="file" />
+                                    </label>
+                                </form>
+                            </figure>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-10 col-sm-9">
-                    <div class="timeline-info">
-                        <ul>
-                            <li class="admin-name">
-                                <h5>Janice Griffith</h5>
-                                <span>Group Admin</span>
-                            </li>
-                            <li>
-                                <a class="" href="time-line.html" title="" data-ripple="">My Post</a>
-                                <a class="active" href="timeline-photos.html" title="" data-ripple="">Saved Post</a>
-                                <a class="" href="timeline-videos.html" title="" data-ripple="">Liked Post</a>
-                                <a class="" href="#" title="" data-ripple="">More</a>
-                            </li>
-                        </ul>
+                    <div class="col-lg-10 col-sm-9">
+                        <div class="timeline-info">
+                            <ul>
+                                <li class="admin-name">
+                                    <h5>Janice Griffith</h5>
+                                    <span>Group Admin</span>
+                                </li>
+                                <li>
+                                    <a class="" href="time-line.html" title="" data-ripple="">My Post</a>
+                                    <a class="active" href="timeline-photos.html" title="" data-ripple="">Saved Post</a>
+                                    <a class="" href="timeline-videos.html" title="" data-ripple="">Liked Post</a>
+                                    <a class="" href="#" title="" data-ripple="">More</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

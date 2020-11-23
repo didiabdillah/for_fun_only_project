@@ -121,6 +121,7 @@
                     </div>
 
                     <ul class="setting-area">
+
                         <li>
                             <a href="#" title="Notification" data-ripple="">
                                 <i class="ti-bell"></i><span>20</span>
@@ -203,6 +204,9 @@
                             </div>
                         </div>
                         <span class="ti-settings main-menu" data-ripple=""></span>
+                        <a href="#" class="btn btn-primary button-upload">
+                            <i class="ti-plus"></i> Upload
+                        </a>
                 </div>
             </div>
         </div><!-- topbar -->
