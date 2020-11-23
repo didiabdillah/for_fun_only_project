@@ -26,5 +26,9 @@ Route::get('/register', function () {
 });
 
 Route::get('/u/{username}', function () {
-    return view('user/my_posts');
+    return view('user/my_post');
+});
+
+Route::get('/u/{username}/saved', function () {
+    return view('user/saved_post');
 });
