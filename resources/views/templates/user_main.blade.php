@@ -74,27 +74,17 @@
                     <div class="">
                         <form method="post">
                             <div class="setting-row">
-                                <span>use night mode</span>
+                                <span>Dark Mode</span>
                                 <input type="checkbox" id="nightmode" />
                                 <label for="nightmode" data-on-label="ON" data-off-label="OFF"></label>
-                            </div>
-                            <div class="setting-row">
-                                <span>Notifications</span>
-                                <input type="checkbox" id="switch2" />
-                                <label for="switch2" data-on-label="ON" data-off-label="OFF"></label>
                             </div>
                         </form>
                         <h4 class="panel-title">Account Setting</h4>
                         <form method="post">
                             <div class="setting-row">
-                                <span>Sub users</span>
+                                <span>NSFW</span>
                                 <input type="checkbox" id="switch6" />
                                 <label for="switch6" data-on-label="ON" data-off-label="OFF"></label>
-                            </div>
-                            <div class="setting-row">
-                                <span>personal account</span>
-                                <input type="checkbox" id="switch7" />
-                                <label for="switch7" data-on-label="ON" data-off-label="OFF"></label>
                             </div>
                         </form>
                     </div>
@@ -229,27 +219,17 @@
             <h4 class="panel-title">General Setting</h4>
             <form method="post">
                 <div class="setting-row">
-                    <span>use night mode</span>
+                    <span>Dark Mode</span>
                     <input type="checkbox" id="nightmode1" />
                     <label for="nightmode1" data-on-label="ON" data-off-label="OFF"></label>
-                </div>
-                <div class="setting-row">
-                    <span>Notifications</span>
-                    <input type="checkbox" id="switch22" />
-                    <label for="switch22" data-on-label="ON" data-off-label="OFF"></label>
                 </div>
             </form>
             <h4 class="panel-title">Account Setting</h4>
             <form method="post">
                 <div class="setting-row">
-                    <span>Sub users</span>
+                    <span>NSFW</span>
                     <input type="checkbox" id="switch66" />
                     <label for="switch66" data-on-label="ON" data-off-label="OFF"></label>
-                </div>
-                <div class="setting-row">
-                    <span>personal account</span>
-                    <input type="checkbox" id="switch77" />
-                    <label for="switch77" data-on-label="ON" data-off-label="OFF"></label>
                 </div>
             </form>
         </div><!-- side panel -->
